@@ -1,0 +1,59 @@
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    background-color: #101b24 !important;
+}
+.nav-link{
+    font-size: 14px !important;
+}
+.speciallist{
+    line-height: 20px !important;
+}
+.specialp{
+    font-size: 12px;
+}
+.specialh3{
+    padding-left: 200px;
+}
+.specialcontent{
+    line-height: 22px !important;
+}
+.specialdiv{
+    height: 230px !important;
+    width: 400px;
+}
+.codediv{
+    background-color: #172533;
+    width: 250px !important;
+    height: 150px !important;
+}
+.griddiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.days{
+    background-color: #103969;
+}
+.hours{
+    background-color: #103969;
+}
+.minutes{
+    background-color: #103969;
+}
+.seconds{
+    background-color: #103969;
+}
+@media (max-width : 760px ){
+    .griddiv{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .codediv{
+        width: 100% !important;
+        font-size: 14px !important;
+    }
+    
+}
